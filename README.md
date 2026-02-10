@@ -38,6 +38,8 @@ The model is trained and evaluated on **three Vietnamese legal NLP tasks**:
 
 ## 🧠 Methodology
 
+![Overall framework](overview.png)
+
 ### Stage 1: Task-Specific LoRA Training
 - Train **separate LoRA adapters** for MCQ, NLI, and SQA
 - Best checkpoint selected individually for each task
@@ -86,6 +88,14 @@ The training data is based on a **synthetically augmented Vietnamese legal datas
 | QLoRA-only | 78.08 | 66.67 | 58.40 | 67.72 |
 
 The two-stage framework achieves the **highest average score**, confirming the benefit of combining adapter merging with full fine-tuning.
+
+---
+
+## 📄 Full Report
+
+A detailed technical report describing the **motivation, methodology, training procedure, and full experimental analysis** is included in this repository.
+
+Readers interested in implementation details, ablation studies, and deeper discussions are encouraged to consult the full report.
 
 ---
 
