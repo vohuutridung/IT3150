@@ -93,7 +93,7 @@ The two-stage framework achieves the **highest average score**, confirming the b
 
 ## 📄 Full Report
 
-A detailed technical report describing the **motivation, methodology, training procedure, and full experimental analysis** is included in this repository.
+[A detailed technical report](report.pdf) describing the **motivation, methodology, training procedure, and full experimental analysis** is included in this repository.
 
 Readers interested in implementation details, ablation studies, and deeper discussions are encouraged to consult the full report.
 
